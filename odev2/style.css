@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+html{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+nav a:hover{
+    opacity: 0.8;
+}
+nav i{
+    margin-right: 5px;
+}
+.hosgeldiniz{
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    padding: 0.05rem;
+    width: 950px;
+    margin: auto;
+}
+.urunler{
+    display: flex;
+}
+.box{
+    list-style-type: none;
+    display: inline;
+}
+.box:hover img{
+    border: 1px solid brown;
+    opacity: 0.8;
+    border-radius: 3px;
+}
