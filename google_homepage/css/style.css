@@ -114,34 +114,39 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 .googlesearch {
   margin: 11px 4px;
-  padding: 0 16px;
+  padding: 3px 16px;
   line-height: 27px;
   min-width: 54px;
-  height: 36px;
   text-align: center;
   cursor: pointer;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
   font-family: arial,sans-serif;
   font-size: 14px;
+  border: 1px solid #f8f9fa;
+}
+.googlesearch:hover {
+  border: 1px solid rgb(175, 175, 175);
 }
 .feelinglucky {
   margin: 11px 4px;
-  padding: 0 16px;
+  padding: 3px 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   background-color: #f8f9fa;
-  border-color: #f8f9fa;
   border-radius: 4px;
   color: #3c4043;
   font-family: arial,sans-serif;
   font-size: 14px;
+  border: 1px solid #f8f9fa;
 }
-
+.feelinglucky:hover {
+  border: 1px solid rgb(175, 175, 175);
+ 
+}
 .footer {
   margin: 0;
   padding: 0;
