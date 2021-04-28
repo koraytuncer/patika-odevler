@@ -1,0 +1,7 @@
+article a{
+    color: rgb(48, 48, 48);
+}
+article a:hover{
+    text-decoration: none;
+    color: black;
+}
