@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'PT Serif', serif;
+    color: black;
+    box-sizing: border-box;
+}
+.bg-yellow{
+    background-color: #FFC017; 
+}
+.bg-white{
+    background-color: #ffffff; 
+}
+.boder-bottom-dark{
+    border-bottom: 1px solid #414141;
+}
+.buttonradius{
+    border-radius: 99em;
+}
+.ui{
+background-image: url("https://miro.medium.com/max/385/1*qcAZgT4Sk37MPSTGBH2KUw.png");
+background-repeat: no-repeat;
+}
+.numeric{
+    font-weight: bold;
+    color: rgba(230, 230, 230, 1);
+    font-size: 38px;
+}
+.icerikfont{
+    font-family: 'Poppins', sans-serif;
+}
+.ortacizgi{
+    border-top: 1px solid rgba(230, 230, 230, 1);
+}
+.libtn >li{
+    margin: 3px;
+}
