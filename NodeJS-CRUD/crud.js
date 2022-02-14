@@ -5,7 +5,7 @@ const writeFile = (file, data) => {
   return new Promise((resolve, reject) => {
     fs.writeFile(file, data, 'utf8', (err) => {
       if (err) reject(err);
-      resolve(`${file} "Baþarýlý Bir Þekilde Oluþturuldu"`);
+      resolve(`${file} "BaÅŸarÄ±lÄ± Bir Åžekilde OluÅŸturuldu"`);
     });
   });
 };
@@ -25,7 +25,7 @@ const appendFile = (file, data) => {
   return new Promise((resolve, reject) => {
     fs.appendFile(file, data, 'utf8', (err) => {
       if (err) reject(err);
-      resolve(`${file} Baþarýlý Bir Þekilde Eklendi`);
+      resolve(`${file} BaÅŸarÄ±lÄ± Bir Åžekilde Eklendi`);
     });
   });
 };
@@ -49,7 +49,7 @@ const asyncPro = async () => {
 
     let fileRead = await readFile(file)
       .then((data) => {
-        console.log(`${file} Baþarýlý Bir Þekilde Okundu`);
+        console.log(`${file} BaÅŸarÄ±lÄ± Bir Åžekilde Okundu`);
         console.log(data);
       })
       .catch((err) => console.log(err));
@@ -58,7 +58,7 @@ const asyncPro = async () => {
 
     let fileUpdate = await appendFile(file, '\n' + newData)
       .then((data) => {
-        console.log(`${file}'e Baþarýlý Bir Þekilde Güncellendi`);
+        console.log(`${file}'e BaÅŸarÄ±lÄ± Bir Åžekilde GÃ¼ncellendi`);
         console.log(newData);
       })
       .catch((err) => console.log(err));
@@ -67,7 +67,7 @@ const asyncPro = async () => {
       .then((result) => console.log(result))
       .catch((err) => console.log(err));
   } catch {
-    console.log('Ýþlem Sýrasýnda Bir Hata Oluþtu');
+    console.log('Ä°ÅŸlem SÄ±rasÄ±nda Bir Hata OluÅŸtu');
   }
 };
 asyncPro();
